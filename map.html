@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PipBoy</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/pipboy.app.css"/>
+</head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav nav-fill">
+                    <li class="nav-item active">
+                        <a href="PipBoy.html" class="nav-link">STAT</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="inv.html" class="nav-link">INV</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="data.html" class="nav-link">DATA</a>
+                    </li>
+                    <li class="navbar-item active">
+                    <a href="map.html" class="nav-link">MAP</a>
+                    </li>
+                    <li class="nav-item active">
+                    <a href="rad.html" class="nav-link">RADIO</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+       
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                            <a href="#status" class="nav-link" data-bs-toggle="tab">
+                                STATUS
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#spacial" class="nav-link" data-bs-toggle="tab">
+                                SPACIAL
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#perks" class="nav-link" data-bs-toggle="tab">
+                                PERKS
+                            </a>
+                        </li>
+                    </ul>
+                    
+                    <div class="tab-content">
+                        <div class="tab-pane" id="status" role="tabpanel">
+                            <div class="centre-image">
+                                <img src="vb.png"/>
+                            </div>
+                    
+
+                            <navbar class="navbar navbar-light">
+                        <div class="row">
+                            <div class="col-3">
+                                LEVEL 1
+                            </div>
+                            <div class="col-6">
+                                HP 70/100
+                                <div class="level-progress">
+                                    <div class="level-progress-indicator" width="50%"></div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                AP 20/50
+                                <div class="level-progress-2">
+                                    <div class="level-progress-indicator-2" width="20%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </navbar>
+                        </div>
+                        <div class="tab-pane" id="spacial" role="tabpanel">
+                            SPACIAL
+                        </div>
+                        <div class="tab-pane" id="perks" role="tabpanel">
+                            PERKS
+                        </div>
+
+                    </div>
+        
+        <script src="js/jquery-3.6.0.slim.min.js"></script>
+        <script src="js/pipboy.app.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+
+    </body>
+
+</html>
